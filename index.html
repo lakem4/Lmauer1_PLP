@@ -1,1 +1,124 @@
-"Hello World"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lake Mauer | Data & Business Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" aria-label="Introduction">
+      <img src="images/Headshot.jpeg" alt="Lake Mauer professional headshot" class="headshot">
+      <h1>Lake Mauer</h1>
+      <p class="tagline">Business Analytics & Information Systems student turning raw data into decisions — finance-focused, people-first.</p>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I am a senior at the University of Iowa graduating in May 2026 with a degree in Business Analytics and Information Systems. I am targeting Data Engineer, Data Scientist, and Data Analyst roles in finance. My background blends strong technical skills with genuine curiosity about how data shapes business strategy.
+      </p>
+      <p>
+        Outside of coursework I enjoy collaborating on team projects, coaching peers through data concepts, and finding stories hidden inside complex datasets. I thrive in environments where analytical rigor meets real-world impact.
+      </p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul class="skill-list" aria-label="Technical skills">
+        <li class="skill-tag">SQL</li>
+        <li class="skill-tag">Python</li>
+        <li class="skill-tag">Tableau</li>
+        <li class="skill-tag">ETL Pipelines</li>
+        <li class="skill-tag">Data Modeling</li>
+        <li class="skill-tag">Excel / Power Query</li>
+        <li class="skill-tag">R</li>
+        <li class="skill-tag">Machine Learning</li>
+        <li class="skill-tag">Data Visualization</li>
+        <li class="skill-tag">Business Intelligence</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <h3>Financial Dashboard</h3>
+          <p>
+            Built an interactive Tableau dashboard aggregating equity and market data across multiple asset classes. The dashboard enables stakeholders to monitor portfolio performance, spot trends, and drill down into sector-level detail — reducing manual reporting time by roughly 40%.
+          </p>
+          <ul class="skill-list small" aria-label="Technologies used">
+            <li class="skill-tag">Tableau</li>
+            <li class="skill-tag">SQL</li>
+            <li class="skill-tag">Excel</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Customer Churn Model</h3>
+          <p>
+            Designed and trained a logistic regression and random-forest pipeline in Python to predict customer churn for a retail banking dataset. Achieved 87% accuracy and surfaced the top five behavioral signals that predict attrition, enabling targeted retention campaigns.
+          </p>
+          <ul class="skill-list small" aria-label="Technologies used">
+            <li class="skill-tag">Python</li>
+            <li class="skill-tag">Machine Learning</li>
+            <li class="skill-tag">Pandas</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Investment Portfolio Analysis</h3>
+          <p>
+            Conducted end-to-end Python analysis on a simulated investment portfolio, pulling historical price data via API, calculating risk-adjusted returns, and producing annotated visualizations. Findings were presented to a panel of finance faculty and peers.
+          </p>
+          <ul class="skill-list small" aria-label="Technologies used">
+            <li class="skill-tag">Python</li>
+            <li class="skill-tag">Data Visualization</li>
+            <li class="skill-tag">APIs</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>I would love to connect. Reach out on LinkedIn, view my work on GitHub, or send me an email.</p>
+      <ul class="contact-list" aria-label="Contact links">
+        <li>
+          <a href="https://www.linkedin.com/in/lake-mauer" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/lmauer1" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li>
+          <a href="mailto:lake.mauer@example.com">Email</a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lake Mauer. All rights reserved.</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
