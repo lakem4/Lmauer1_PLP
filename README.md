@@ -29,7 +29,7 @@ This project is a personal landing page designed to showcase my projects, techni
 ## Getting Started
 
 ### Prerequisites
-- A modern web browser (Chrome, Safari, Firefox)
+- A modern web browser (Chrome, Safari)
 
 ### Installation
 ```bash
